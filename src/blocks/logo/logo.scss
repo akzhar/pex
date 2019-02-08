@@ -1,0 +1,25 @@
+.logo {
+  position: relative;
+
+
+  &::after {
+    position: absolute;
+    content: "Photoshop Website Template";
+
+    top: 50%;
+    right: -210px;
+
+    min-width: 200px;
+
+    transform: translate(0, -50%);
+
+    color: #ffffff;
+
+    font-size: $s_2;
+    line-height: $l_2;
+  }
+}
+
+.logo__img {
+
+}

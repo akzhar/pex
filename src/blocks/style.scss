@@ -1,0 +1,32 @@
+@font-face { //локальное подключение шрифтов
+  font-weight: normal;
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-display: optional;
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+  url("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+img {
+  max-width: 100%;
+}
+
+@import "variables/variables.scss";
+
+@import "normalize/normalize.min.scss";
+
+@import "srvc/srvc.scss";
+
+@import "body/body.scss";
+
+@import "page-wrapper/page-wrapper.scss";
+
+@import "header/header.scss";
+
+@import "logo/logo.scss";
+
+@import "nav/nav.scss";
+
+@import "search/search.scss";
+
+@import "promo/promo.scss";

@@ -1,0 +1,39 @@
+.nav {
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 50px;
+}
+
+.nav__link {
+  display: block;
+
+  padding: 35px 0;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  border-bottom: 3px solid transparent; //чтобы пункты не скакали при наведении
+
+  &:hover {
+    border-color: #ffffff;
+  }
+}
+
+.nav__link--active {
+  border-color: #ffffff;
+}

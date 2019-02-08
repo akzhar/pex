@@ -1,0 +1,23 @@
+.header {
+  background-image: url("../../img/mount.jpg");
+
+  min-height: 890px; //чтобы блок с изображением не схлопнулся
+}
+
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 99px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header__logo {
+  padding-left: 210px; //отступ слева для лого
+}
+
+.header__nav {
+  padding-right: 35px; // отступ справа для поиска
+}
