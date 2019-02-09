@@ -166,7 +166,7 @@ template {
   box-shadow: 0px 0px 30px 5px #68525c; }
 
 .header {
-  background-image: url("../../img/mount.jpg");
+  background-image: url("../img/mount.jpg");
   min-height: 890px; }
 
 .header__wrapper {
@@ -311,7 +311,7 @@ template {
   width: 400px; }
 
 .advantage {
-  background-image: url("../../img/redforest.jpg");
+  background-image: url("../img/redforest.jpg");
   min-height: 540px; }
 
 .advantage__wrapper {
@@ -345,12 +345,12 @@ template {
 .story--1 .story__img {
   height: 490px;
   width: 629px;
-  background-image: url("../../img/hand.jpg"); }
+  background-image: url("../img/hand.jpg"); }
 
 .story--2 .story__img {
   height: 520px;
   width: 670px;
-  background-image: url("../../img/watch.jpg"); }
+  background-image: url("../img/watch.jpg"); }
 
 .story--2 .story__img {
   order: 2; }
@@ -381,7 +381,7 @@ template {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url("../../img/blackforest.jpg");
+  background-image: url("../img/blackforest.jpg");
   min-height: 550px; }
 
 .offer__wrapper {
@@ -420,7 +420,7 @@ template {
 
 .food {
   min-height: 670px;
-  background-image: url("../../img/food.jpg"); }
+  background-image: url("../img/food.jpg"); }
 
 .food__wrapper {
   width: 1180px;
