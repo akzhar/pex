@@ -1,0 +1,53 @@
+.story {
+  display: flex;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.story--1 .story__img {
+  height: 490px;
+  width: 629px;
+  background-image: url("../../img/hand.jpg");
+}
+
+.story--2 .story__img {
+  height: 520px;
+  width: 670px;
+  background-image: url("../../img/watch.jpg");
+}
+
+.story--2 .story__img {
+  order: 2;
+}
+
+.story--2 .story__text {
+  padding: 100px 60px 0 210px;
+}
+
+.story__text {
+  display: flex;
+  flex-direction: column;
+
+  width: 660px;
+
+  padding: 100px 0 0 100px;
+}
+
+.story__header {
+  margin: 0;
+
+  text-transform: uppercase;
+}
+
+.story__content {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: $s_4;
+  line-height: $l_4;
+}
+
+.story__comment {
+  margin: 0;
+}

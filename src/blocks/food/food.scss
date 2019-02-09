@@ -1,0 +1,66 @@
+.food {
+  min-height: 670px;
+
+  background-image: url("../../img/food.jpg");
+}
+
+.food__wrapper {
+  width: 1180px;
+
+  margin: 0 auto;
+  padding-top: 360px;
+}
+
+
+.food__record {
+  width: 550px;
+}
+
+.food__btn {
+  width: 75px;
+  padding: 0 30px;
+
+  margin-bottom: 30px;
+
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #ffffff;
+
+  font-size: $s_2;
+  line-height: 40px;
+}
+
+.food__header {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: $s_6;
+  line-height: $l_6;
+  font-weight: 100;
+}
+
+.food__author {
+  position: relative;
+
+  display: block;
+
+  padding-left: 60px;
+
+  &:after {
+    position: absolute;
+    content: "";
+
+    top: 50%;
+    left: 0;
+
+    transform: translate(0, -50%);
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    background-image: url("../../img/profilephoto.jpg");
+    background-position: -40px 0;
+  }
+}

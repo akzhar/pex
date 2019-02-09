@@ -1,0 +1,55 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-image: url("../../img/blackforest.jpg");
+
+  min-height: 550px;
+}
+
+.offer__wrapper {
+  width: 100%;
+
+  background-color: rgba(82, 26, 102, 0.8);
+}
+
+.offer__header {
+  width: 500px;
+  padding-top: 90px;
+  margin: 0 auto 30px auto;
+
+  font-size: $s_6;
+  line-height: $l_6;
+  text-align: center;
+  font-weight: 100;
+}
+
+.offer__content {
+  width: 740px;
+  margin: 0 auto 30px auto;
+
+  text-align: center;
+
+  font-size: $s_4;
+  line-height: $l_4;
+  color: #a87bb7;
+}
+
+.offer__btn {
+  width: 290px;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.offer__comment {
+  width: 290px;
+
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  font-size: $s_2;
+  line-height: $l_2;
+  text-align: center;
+}
