@@ -1,0 +1,32 @@
+.promo {
+  width: 1180px;
+}
+
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  width: 505px;
+}
+
+.promo__header {
+  margin: 0;
+  margin-bottom: 50px;
+
+  font-size: $s_7;
+  line-height: $l_7;
+  text-align: right;
+}
+
+.promo__btn {
+  margin-bottom: 15px;
+}
+
+.promo__comment {
+  margin: 0;
+  margin-right: 12px;
+
+  font-size: $s_2;
+  line-height: $l_2;
+}

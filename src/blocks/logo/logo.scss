@@ -1,17 +1,18 @@
 .logo {
   position: relative;
 
+  display: block;
+
+  height: 21px;
 
   &::after {
     position: absolute;
     content: "Photoshop Website Template";
 
-    top: 50%;
-    right: -210px;
+    top: -4px;
+    right: 0px;
 
     min-width: 200px;
-
-    transform: translate(0, -50%);
 
     color: #ffffff;
 

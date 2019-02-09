@@ -4,7 +4,7 @@
   min-height: 890px; //чтобы блок с изображением не схлопнулся
 }
 
-.header .wrapper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,9 +15,13 @@
 }
 
 .header__logo {
-  padding-left: 210px; //отступ слева для лого
+  padding: 0 210px; //отступ для лого
 }
 
 .header__nav {
   padding-right: 35px; // отступ справа для поиска
+}
+
+.header__promo {
+  margin: 170px auto 0 auto;
 }
