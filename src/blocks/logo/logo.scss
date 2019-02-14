@@ -5,6 +5,8 @@
 
   height: 21px;
 
+  text-decoration: none;
+
   &::after {
     position: absolute;
     content: "Photoshop Website Template";
@@ -18,7 +20,6 @@
 
     font-size: $s_2;
     line-height: $l_2;
-    text-decoration: none;
   }
 }
 

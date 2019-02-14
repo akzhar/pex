@@ -188,7 +188,8 @@ template {
 .logo {
   position: relative;
   display: block;
-  height: 21px; }
+  height: 21px;
+  text-decoration: none; }
   .logo::after {
     position: absolute;
     content: "Photoshop Website Template";
@@ -197,8 +198,7 @@ template {
     min-width: 200px;
     color: #ffffff;
     font-size: 13px;
-    line-height: 24px;
-    text-decoration: none; }
+    line-height: 24px; }
 
 .nav {
   display: flex;
@@ -262,7 +262,7 @@ template {
   font-weight: 100; }
 
 .promo__btn {
-  width: 154px;
+  min-width: 160px;
   margin-bottom: 15px; }
 
 .promo__comment {
