@@ -197,7 +197,8 @@ template {
     min-width: 200px;
     color: #ffffff;
     font-size: 13px;
-    line-height: 24px; }
+    line-height: 24px;
+    text-decoration: none; }
 
 .nav {
   display: flex;
@@ -252,6 +253,7 @@ template {
   width: 505px; }
 
 .promo__header {
+  width: 500px;
   margin: 0;
   margin-bottom: 50px;
   font-size: 50px;
@@ -260,7 +262,7 @@ template {
   font-weight: 100; }
 
 .promo__btn {
-  width: 150px;
+  width: 154px;
   margin-bottom: 15px; }
 
 .promo__comment {
